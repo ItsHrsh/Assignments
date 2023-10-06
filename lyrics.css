@@ -1,0 +1,64 @@
+body {
+    font-family: 'YourCalmingFont', sans-serif;
+    background-color: #f7f7f7; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; 
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f2eded;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #f2eded;
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.lyrics {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    overflow-x: auto; 
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+
+.lyrics a {
+    text-decoration: none;
+    color: #4e6eff; 
+    transition: color 0.3s ease-in-out; 
+}
+
+.lyrics:hover {
+    color: #3366cc; 
+}
+
